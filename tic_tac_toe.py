@@ -91,7 +91,7 @@ def playgame():
             print(f'Congrats,{current_player}, you are now the unofficial Tic Tac Toe World Championship..or something like that.')
             game_active = False
         elif tie_check(board):
-            print(f"Well, this is awkeard.. it's a tie. ")
+            print(f"Well, this is awkward.. it's a tie. ")
             game_active = False
         else:
         # Switch turns
